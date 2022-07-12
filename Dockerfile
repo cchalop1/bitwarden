@@ -115,8 +115,6 @@ RUN mkdir /data \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-
-VOLUME /data
 EXPOSE $PORT
 EXPOSE 3012
 
