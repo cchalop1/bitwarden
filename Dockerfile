@@ -1,3 +1,3 @@
 from vaultwarden/server:latest
 
-EXPOSE 80
+EXPOSE ${PORT}
